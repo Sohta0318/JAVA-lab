@@ -9,7 +9,7 @@ public class eagle extends birds {
 		// TODO Auto-generated constructor stub
 	}
 	public String showInfo() {
-		return "eagle [height = " + getHeight() + ", weight = " + getWeight() + ", animal type = " + getAnimal_type() + ", blood type = " + getBlood_type() + ", fly = " + isFly();
+		return "crocodile [height = " + getHeight() + ", weight = " + getWeight() + ", animal type = " + getAnimal_type() + ", blood type = " + getBlood_type() + ", fly = " + isFly();
 	}
 
 

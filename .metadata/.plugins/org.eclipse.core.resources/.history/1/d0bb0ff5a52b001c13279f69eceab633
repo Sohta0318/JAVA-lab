@@ -17,7 +17,7 @@ public class eel extends fish {
 	}
 	
 	public String showInfo() {
-		return "eel [height = " + getHeight() + ", weight = " + getWeight() + ", animal type = " + getAnimal_type() + ", blood type = " + getBlood_type() + ", habitat = " + getHabitat() + ", gills = " + isGills() + ", featuer = " + getFeature() ;
+		return "crocodile [height = " + getHeight() + ", weight = " + getWeight() + ", animal type = " + getAnimal_type() + ", blood type = " + getBlood_type() + ", habitat = " + getHabitat() + ", gills = " + isGills() + ", featuer = " + getFeature() ;
 	}
 	
 
