@@ -1,0 +1,22 @@
+package children;
+
+import parent.Aniamal;
+
+public class birds extends Aniamal {
+	private String feature;
+
+	public birds(int height, int weight, String animal_type, String blood_type, String feature) {
+		super(height, weight, animal_type, weight, blood_type);
+		// TODO Auto-generated constructor stub
+		this.setFeature(feature);
+	}
+
+	public String getFeature() {
+		return feature;
+	}
+
+	public void setFeature(String feature) {
+		this.feature = feature;
+	
+}
+}

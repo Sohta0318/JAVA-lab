@@ -1,0 +1,15 @@
+package cousin;
+
+import children.reptile;
+
+public class crocodile extends reptile {
+
+	public crocodile(int height, int weight, String animal_type, String blood_type, String feature) {
+		super(height, weight, animal_type, blood_type, feature);
+		// TODO Auto-generated constructor stub
+	}
+	public String showInfo() {
+		return 
+	}
+
+}
