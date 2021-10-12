@@ -1,0 +1,25 @@
+package children;
+
+import parent.Aniamal;
+
+public class birds extends Aniamal {
+	private String feature;
+	private boolean fly;
+
+	public birds(int height, int weight, String animal_type, String blood_type, String feature, Boolean fly) {
+		super(height, weight, animal_type, blood_type);
+		// TODO Auto-generated constructor stub
+		this.fly = true;
+	}
+
+	public String getFeature() {
+		return feature;
+	}
+
+	public boolean isFly() {
+		return fly;
+	}
+
+	
+
+}

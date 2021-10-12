@@ -3,19 +3,24 @@ package children;
 import parent.Aniamal;
 
 public class fish extends Aniamal {
-	private String feature;
+	protected String habitat;
+	protected boolean gills;
 	
 
-	public fish(int height, int weight, String animal_type, String blood_type, String feature) {
+	public fish(int height, int weight, String animal_type, String blood_type, String habitat, Boolean gills) {
 		super(height, weight, animal_type, blood_type);
 		// TODO Auto-generated constructor stub
-		this.feature = "Live in water\n"
-				+ "\n"
-				+ "Has gills";
+		this.habitat = "water";
+		this.gills = true;
 	}
 
-	public String getFeature() {
-		return feature;
+
+	public String getHabitat() {
+		return habitat;
+	}
+
+	public boolean isGills() {
+		return gills;
 	}
 
 	

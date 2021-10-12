@@ -3,18 +3,18 @@ package children;
 import parent.Aniamal;
 
 public class birds extends Aniamal {
-	private String feature;
+	protected boolean fly;
 
-	public birds(int height, int weight, String animal_type, String blood_type, String feature) {
+	public birds(int height, int weight, String animal_type, String blood_type, Boolean fly) {
 		super(height, weight, animal_type, blood_type);
 		// TODO Auto-generated constructor stub
-		this.feature = "Animals with feathers\n"
-				+ "\n"
-				+ "Can fly" ;
+		this.fly = true;
 	}
 
-	public String getFeature() {
-		return feature;
+	
+
+	public boolean isFly() {
+		return fly;
 	}
 
 	
